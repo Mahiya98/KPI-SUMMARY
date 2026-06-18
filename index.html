@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBU Comparison 2024–2026</title>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📊 SBU Comparison Dashboard</h1>
+    <p>Years 2024 · 2025 · 2026</p>
+  </header>
+
+  <div class="controls">
+    <label for="sbuFilter"><strong>Filter by SBU:</strong></label>
+    <select id="sbuFilter"><option value="ALL">All SBUs</option></select>
+  </div>
+
+  <div class="chart-container">
+    <canvas id="sbuChart"></canvas>
+  </div>
+
+  <div class="table-wrap">
+    <table id="dataTable">
+      <thead><tr><th>SBU</th><th>2024</th><th>2025</th><th>2026</th><th>Δ 25 vs 24</th><th>Δ 26 vs 25</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
