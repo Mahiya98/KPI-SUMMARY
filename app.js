@@ -1,5 +1,5 @@
 // ✅ Your published CSV URL
-const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQpe4PQEIW0KGdMreeRgY8dZevKVN-8T2OIqQSJUqThz_6SAIYQUokbPgPmfmkjrnQPyhZCQVuYaq6y/pub?gid=0&single=true&output=csv";
+const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1HxPYy8FJTR9PfpK4sVItwHk82DOiPgLnTRJvscB4mVM/edit?gid=0#gid=0";
 
 const METRICS = ["Avg NPT", "Avg MTTR", "Avg MTBF", "Avg CAP UT", "Avg Oee", "Total Output"];
 const YEARS = ["24", "25", "26"];
